@@ -1,0 +1,12 @@
+git flow init    -- gets all git config
+
+git branch  or
+git branch -a    -- gets all the git branch information
+
+
+git push origin  -- will push the changes to remote server
+git push --set-upstream origin <branchname> 
+ex. git push --set-upstream origin dev
+
+git flow feature start <feature-branch-name>
+ex. git flow feature start refactor-first-stop
